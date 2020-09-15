@@ -1,0 +1,87 @@
+.brandName--shelf-nameProduct-featured{
+    text-transform: initial;
+    color: #000;
+    display: block;
+    max-height: 38px;
+    height: 35px;
+}
+.nameContainer{min-height:80px;}
+.clearLink .buyButton{margin:0 30px;}
+.clearLink--shelf-footer-li:hover .image{width:auto;height:auto}
+.containerNormal{background:#fff;}
+.priceContainer{padding-bottom:0;}
+
+.priceContainer{
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.price_installmentContainer{
+    font-family: muli;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.sellingPrice{
+    padding: 0px;
+}
+
+.productPriceClass{
+    width: 100%;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyButton :global(.vtex-button){
+    border-radius: 10px;
+    border: none;
+    font-family: muli;
+    display: none;
+}
+
+.containerNormal{
+    padding: 0px 10px;
+}
+
+.productBrand--shelf-nameProduct-featured{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: muli;
+    text-align: left;
+}
+
+.nameContainer--shelf-nameProduct-featured{
+    padding: 0px;
+    min-height: 10px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.imageNormal{
+    height: 215px;
+    width: 215px;
+}
+
+@media only screen and (min-width: 40em){
+    .brandName--shelf-nameProduct-featured{
+        display: block;
+        max-height: auto;
+        height: auto;
+    }    
+}
+
+@media only screen and (min-width: 80em){
+    .clearLink:hover {opacity:1;}
+    .containerNormal{
+        max-width:400px !important;
+        transition: .3s linear;    
+    }
+    
+    .containerNormal:hover{
+        box-shadow:0 0 10px #fbe3d3;    
+    }    
+}

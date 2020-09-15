@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals1": {
+    "children": [
+      "rich-text#deal1"
+    ]
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "![frete grátis](https://girotondo.vteximg.com.br/arquivos/001-Brazil.png 'Entrega para todo o Brasil') Entrega para todo Brasil",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "rich-text#deal2"
+    ]
+  },  
+  "rich-text#deal2": {
+    "props": {
+      "text": "![pagamento facilitado](https://girotondo.vteximg.com.br/arquivos/002-Card.png 'Pagamento facilitado') Pagamento facilitado",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "rich-text#deal3"
+    ]
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "![Qualidade garantida](https://girotondo.vteximg.com.br/arquivos/003-Medal.png 'Qualidade garantida') Qualidade garantida",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "rich-text#deal4"
+    ]
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "![Compra segura](https://girotondo.vteximg.com.br/arquivos/004-Locks.png 'Compra 100% segura') Compra 100% segura",
+      "blockClass": "deals"
+    }
+  }
+}

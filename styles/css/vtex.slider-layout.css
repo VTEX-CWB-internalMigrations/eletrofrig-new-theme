@@ -1,0 +1,38 @@
+.paginationDotsContainer{
+    bottom: -20px;
+    padding: 13px;
+}
+
+.slide{
+    padding: 0px 15px;
+}
+
+.caretIcon--summary-main{
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    color: #0060a1;
+}
+
+.sliderLayoutContainer--brandsSlider{
+    padding: 0px 100px;
+    margin-top: 25px;
+}
+
+.slide--brandsSlider{
+    height: 100px;
+}
+
+.caretIcon--brandsSlider{
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    color: #0060a1;
+}
+
+@media only screen and (min-width: 800px){
+    .sliderLayoutContainer--summary-main{
+        padding: 0px 100px;
+    }
+}
+

@@ -1,0 +1,485 @@
+.container--contact-header .paragraph{
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  color:#09609f;
+  font-family: muli;
+}
+
+
+
+.container--contact-header .paragraph{color:#09609f;}
+.link--content-intitutional{color:#999 !important;}
+.container--contact-header .link, .container--contact-header .link--text-securitySell{
+  color:#09609f;
+  text-decoration: none;
+}
+
+.container--tip-title .headingLevel3--link,
+.headingLevel3--tip-content{
+  margin:.5em 0 0;
+  color:#d0d0d0;
+}
+.container--tip-content .paragraph{
+  color: #d0d0d0;
+  font-size: .9em;
+  text-align: center;
+  margin: 0 3em 1em;
+}
+
+.container--tip-title{
+  justify-content: center;
+}
+.container--link-intitutional,
+.link-first-intitutional{
+  justify-content: center;
+}
+
+.container--text-copyright{
+  justify-content: center;
+}
+
+.container--link-first-intitutional .link--text-copyright,
+.container--link-first-intitutional .link--footer-title,
+.container--link-first-intitutional .link--link-first-intitutional{
+  color:#fff;
+  border-bottom: 2px solid #f7eb14;
+  width: auto !important;
+  text-decoration: none;
+  padding-bottom: .5em;
+}
+
+.container--link-intitutional .link--text-copyright,
+.container--link-intitutional .link--footer-title,
+.container--link-intitutional .paragraph--link-intitutional .link--link-intitutional{
+  color:#fff;
+  text-decoration: none;
+  font-family: muli;
+  font-weight: 600;
+}
+
+.container--description-footer .paragraph{
+  font-size:.9em;
+  padding-right:2em;
+  line-height: 1.2;
+}
+
+.container--footer-title{font-weight: bold;}
+.container--footer-title .paragraph{margin:0 0 .5em;color: #58595b;}
+.container--footer-textDefault .paragraph{font-size: 1em;font-weight: bold;margin:0 0 .5em;}
+.container--text-copyright{margin: 1em 0;}
+.container--text-copyright .paragraph{text-align:center;font-size:.8em;}
+.container--alert-product{
+  background: #fff;
+  border:1px solid #048a7d;
+  border-radius: 5px;  
+  width: 90% !important;
+}
+.container--alert-product .heading-level-5{
+  margin: .2em;
+  color: #ff6600;
+  text-align: center;
+  font-weight: bold;
+  padding: .5em;
+  font-size: .9em;
+}
+.container--alert-product .paragraph--alert-product,
+.container--alert-product .paragraph--text-securitySell{
+  padding: 0 2em;
+  color: #048a7d;
+  margin: 0;
+  font-size: .9em;
+  line-height: 1.3;
+}
+
+.container--alert-product .italic--alert-product,
+.container--alert-product .italic--text-securitySell{
+  color: #048a7d;
+  margin: .5em 0;
+  display: block;
+  text-align: center;
+}
+
+.container--text-securitySell{
+  margin-top:-1.5em;
+  justify-content: flex-end;
+  margin-right:2em;
+}
+
+.container--text-securitySell .paragraph{
+  background: url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/shield___aa3a79d1e086a6a3d002405c2d44a304.png) no-repeat left center scroll transparent;
+  padding-left:1.6em;
+}
+
+.container--title-intitutional .paragraph{
+  border-left: 5px solid #f7eb14;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 0px;
+}
+
+.container--footer{
+  justify-content: center;
+  text-align: center;
+}
+
+.paragraph--shelfTitle{
+  font-family: muli;
+}
+
+.paragraph--text-copyright{
+  color: #58595b;
+}
+
+.image--deals{
+  height: 15px;
+}
+
+.container--deals{justify-content: center;}
+.container--deals .paragraph{
+  margin:.3em 0;
+  font-size:.9em;
+  text-align: center;
+  font-family: muli;
+  color: #58595b;
+  display: flex;
+  align-items: center;
+}
+
+.container--howBuy-title{text-align: center;justify-content: center;}
+.container--howBuy-title .headingLevel3{
+  margin-bottom: 0;
+  color: #ff6600;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #262228;  
+}
+
+.container--howBuy-title .headingLevel4{
+  margin-top: 0;
+  color: #fff;
+  font-size: 2.9em;
+  text-transform: uppercase;  
+}
+.container--howBuy-title .paragraph{
+  max-width: 80em;
+  margin-top: 0;
+  color: #ccc;
+  line-height: 2;
+}
+
+.container--title-howTo-secondary{
+  justify-content: center;
+}
+
+.paragraph--title-howTo-secondary{
+  font-size: 2em;
+  color: #000;
+  text-align: center;
+  line-height: 1;
+  font-weight: bold;  
+}
+
+.paragraph--text-copyright{
+  border-top: 0.5px solid #f1f1f1;
+  padding-top: 15px;
+}
+
+.link--text-copyright{
+  color: #fff;
+}
+
+.container--title-video-howTo{
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2em;
+  color: #ff6500;  
+}
+
+.container--btn-howToBuy{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  background: #ff6500;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ff9d5c;  
+}
+
+.paragraph--btn-howToBuy{
+  margin:0;
+}
+
+.link--btn-howToBuy{
+  padding: 40px 10px 10px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: .9em;
+  display: block;
+  text-decoration: none;
+  background: url(https://brasiltatica.vteximg.com.br/assets/vtex.file-manager-graphql/images/gun___1c9ade07e67f2612f05c065ffdbd1e56.svg);
+  background-position: center 5px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.container--btnBuy{
+  justify-content: center;
+  background: #4caf50;
+  margin: 1.5em auto 0;
+  border: 2px solid #257b28;
+  border-radius: 5px;
+  line-height: 1;
+  max-width: 210px;
+  min-width: 190px;  
+  opacity: 0;
+  transition: .2s linear;
+}
+
+.container--btnBuy .paragraph{
+  margin: 0;
+  color: #fff;
+  padding: .5em 1em;
+  text-transform: uppercase;  
+}
+
+.container--inCash{
+  justify-content: center;
+}
+
+.container--inCash .paragraph{
+  color: green;
+  margin:0;
+  line-height: 1;
+}
+
+.paragraph--link-regulation{
+  margin:0;
+  line-height: 1;
+}
+
+.link--link-regulation{
+  color: #167ac6; 
+  font-size:.9em;
+  text-transform: lowercase;
+}
+
+.paragraph--deals {
+  color: #ffffff;
+  display: flex;
+}
+
+.container--shelfTitle{
+  display: block;
+  width: 100%;
+}
+
+.container--text-copyright{
+  background: #f7eb14;
+  margin-bottom: 0px;
+}
+
+.paragraph--footer-title{
+  color: #58595b;
+}
+
+.paragraph--text-copyright{
+  border: none;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-family: muli;
+}
+
+.paragraph--shelfTitle{
+    color: #8d8d8d;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 30px;
+    position: relative;
+
+}
+
+.link--footer-textDefault{
+  text-decoration: none;
+}
+
+.paragraph--shelfTitle::after{
+  border-radius: 100px;
+  content: "";
+  width: 30%;
+  height: 3px;
+  background: #f7eb14;
+  display: block;
+  bottom: 0px;
+  z-index: 99;
+  margin: 0px auto;
+}
+
+.container--institutionalTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--institutionalTitle{
+  font-size: 17px;
+  color: #000000;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.paragraph--institutionalTitle::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: #f7eb14;
+  border-radius: 100px;
+}
+
+.container--content-intitutional{
+  max-width: 1000px;
+}
+
+.container--title-intitutional{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  max-width: 1000px;
+  background: #ececec;
+  margin-top: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.wrapper--content-intitutional{
+  padding: 15px;
+}
+
+.headingLevel5--content-intitutional{
+  font-weight: 600;
+  margin: 25px 0px 10px;
+  color: #025792;
+}
+
+.paragraph--content-intitutional{
+  font-size: 14px;
+}
+
+.container--description-footer{
+  padding: 0px 10px;
+}
+
+.paragraph--description-footer{
+  font-family: muli;
+}
+
+.listItem--content-intitutional{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.listItem--content-intitutional .link--content-intitutional{
+  color: #000 !important;
+}
+
+.paragraph--footer-textDefault:first-child{
+  display: flex;
+  max-width: 155px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.paragraph--footer-textDefault .image--footer-textDefault{
+  width: 22px;
+  margin: 5px 3px 5px 0px;
+}
+
+
+.paragraph--footer-textDefault .image--footer-textDefault:first-child{
+  width: 15px;
+  margin: 10px 5px;
+}
+
+.container--whatsapp-function{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  max-width: 40px;
+}
+
+@media only screen and (min-width: 40em){
+  .container--link-regulation{
+    text-align: center;
+    justify-content: center;
+    margin-top: -1em;
+    margin-bottom: 2em;    
+  }
+  
+  .container--whatsapp-function{
+    max-width: unset;
+  }
+ 
+  .container--contact-header .paragraph{
+    line-height:1;
+    font-size: .8em;
+  }
+  
+  .paragraph--shelfTitle{
+    padding: 0px 100px;
+  }
+
+}
+
+.container--link-regulationGun , .container--link-regulationPlane{
+  display: flex;
+  padding: 0px 0px 30px;
+  align-items: center;
+  align-content: center;
+}
+
+.link--link-regulationGun , .link--link-regulationPlane{
+  color: #171717;
+  font-size: .9em;
+  display: inline-block;
+  text-transform: lowercase;
+  max-width: 160px;
+}
+
+.paragraph--link-regulationGun , .paragraph--link-regulationPlane{
+  margin: 0px;
+}
+
+.paragraph--link-regulationGun::before{
+  content: "";
+  background: url(https://brasiltatica.vteximg.com.br/arquivos/brtaticaGun.png);
+  width: 40px;
+  height: 35px;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.paragraph--link-regulationPlane::before{
+  content: "";
+  background: url(https://brasiltatica.vteximg.com.br/arquivos/brtaticaPlane.png);
+  width: 40px;
+  height: 35px;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.link--footer-textDefault{
+  color: #8d8d8d;
+}
+
+@media only screen and (min-width: 80em){
+  .container--contact-header .paragraph{
+    font-size: .9em;
+    margin: 0;
+  }
+
+}

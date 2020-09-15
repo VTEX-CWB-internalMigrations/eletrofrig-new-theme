@@ -1,0 +1,28 @@
+.openIconContainer{
+    background: #025792;
+    padding: 10px 12px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.menuIcon{
+    color: #fff;
+}
+
+.drawer.opened{
+    width: 60% !important;
+    max-width: 450px !important;
+    min-width: 200px !important;
+}
+.childrenContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.closeIcon{
+    background: #025792;
+    border-radius: 5px;
+    color: #fff;
+}

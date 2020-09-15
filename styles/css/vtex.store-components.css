@@ -1,0 +1,418 @@
+.logoContainer--logo-desktop{
+  display: block;
+  padding: 10px;
+  max-width: 300px!important;
+  max-height: 70px!important;
+  min-width: 120px;
+}
+.logoImage--logo-desktop{
+  width: 100%;
+  height: 100%;
+}
+/*
+.searchBarContainer label > div{border:0}
+.searchBarContainer input{text-align: right;}
+.searchBarIcon svg{color:#000;}
+*/
+.imageElement--img-bannerSpecial{width:100%;height:100%;max-height: 100% !important;}
+.form--content-newsletter{max-width: 45em;}
+.label--content-newsletter{
+  font-weight: normal;
+  font-size: 1em;
+  font-weight: normal;
+  color: #111;
+  font-style: italic;  
+}
+/* .inputGroup--content-newsletter label div{border:none;}
+.inputGroup--content-newsletter input{
+  background: #fff;
+  padding: 2em;  
+  border-radius: 7px;
+  box-shadow: 0 0 10px #eaeaea;  
+}
+*/
+.buttonContainer--content-newsletter{
+  justify-content: center;
+}
+.infoCardContainer--info-card-middle{margin:4em 0 2em;}
+.sellingPriceValue{font-weight: normal;color:#000;font-size:1em;}
+.discountContainer{width:100%;}
+.discountInsideContainer{
+  position: absolute;
+  top: -0.6em;
+  right: 0;
+  width: 100%;
+  font-size:1em;  
+}
+
+.infoCardHeadline--info-card-home,
+.infoCardHeadline--info-card-middle{
+  color:#fff;
+}
+
+.buyButtonText{
+  padding:1em;
+}
+
+.productBrand--productDetails-name{
+  font-size:1.2em;
+  font-weight: bold;
+}
+
+.price_sellingPriceContainer--productDetails-price{
+  margin: 1em 0 0;
+}
+
+.productDescriptionTitle{
+  display:none;
+}
+
+.carouselGaleryThumbs .swiper-slide{
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  opacity: .6;  
+  transition: .2s linear;
+}
+.carouselGaleryThumbs .swiper-slide:hover{
+  opacity:1;
+}
+
+.carouselGaleryThumbs .swiper-slide-active{
+  border: 1px solid #ff6500;
+  opacity:1;
+}
+
+.productImage{background:#fff;}
+.highlightContent{display:none;}
+.skuSelectorNameContainer{margin:1.5em 0 0;}
+/* Specification */
+
+.specificationsTableContainer{padding:0;margin: 0px 2em;}
+.specificationsTitle,
+.specificationsTablePropertyHeading, 
+.specificationsTableSpecificationHeading{display:none;}
+
+.specificationsTable{
+  background:#f4f4f4;
+}
+
+
+.specificationItemProperty{
+  width: 40%;
+  font-size: .75rem;
+  border-right: 1px solid #bdbdbd;
+  color: #28538a;
+  font-weight: 500;
+  text-align: right;
+  text-transform: uppercase;  
+  border-bottom:0;
+}
+.specificationItemSpecifications{
+  border:0;
+  font-size:.75rem;
+}
+
+
+  .imageElementLink--banner-segment-img:hover,
+  .imageElement--banner-segment-img{opacity:.9}
+  .imageElement--banner-segment-img{max-width:100% !important;}
+
+  /* info card */
+
+  .infoCardHeadline--info-card-featured{color: #3f3f40;font-size:2em;padding: 0 0.5em;}
+  .infoCardSubhead--info-card-featured{padding: 0 1em;}
+
+  /* Description Product */
+
+.productDescriptionText .description-custom-top{
+    display: flex;
+}
+
+.productDescriptionText .description-custom-top .imageProduct{
+    max-width: 600px;
+    max-height: 350px;
+    overflow: hidden;
+    align-self: center;
+    width: 40%;
+    margin-right: 2em;
+}
+
+.productDescriptionText .description-custom-top .infoProduct{
+    text-align: left;
+    align-self:center;
+}
+
+.productDescriptionText .description-custom-bottom{
+    display:flex;
+    margin-top:2em;
+    padding-bottom: 3em;
+    border-bottom: 2px solid #eee
+}
+
+.imageElement--img-register{
+  border-radius: 100%;
+}
+
+.productDescriptionText{
+  font-size: 0.90rem;
+  border-right: 1px solid #bdbdbd;
+  color: #28538a;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: 0;
+  background: #f4f4f4;
+  padding: 40px;
+  margin: 0px 2rem;
+  border: none;
+}
+
+.specificationItemProperty{
+  display: none
+}
+
+.specificationsTabsContainer :global(.vtex-tab__button){
+  color: #000;
+  height: 65px;
+}
+
+.specificationsTabsContainer :global(.vtex-tab__button--active){
+  border-bottom: 2px solid #f7eb14;
+}
+
+.specificationsTitle{
+  display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    background: #09609f;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.specificationsTab{
+  background: #f6f6f6;
+  padding: 25px;
+}
+
+.specificationsTab{
+  color: #606060;
+}
+
+.specificationsTabsContainer :global(.vtex-tabs)::before{
+  content: "";
+  background-image: url(https://girotondo.vteximg.com.br/arquivos/scrollHere2.png);
+  height: 15px;
+  background-size: 110px;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ececec;
+  padding: 10px;
+}
+
+.container{
+  padding: 0px;
+}
+
+.infoCardContainer{
+  padding: 0px;
+}
+
+.infoCardCallActionContainer :global(.vtex-button){
+  border: none;
+  border-radius: 5px;
+}
+
+.specificationsTab{
+  margin-bottom: 50px;
+}
+
+.productBrand--productDetails-name{
+  font-size: 25px;
+  color: #595959;
+  font-family: muli;
+}
+
+.productBrand--productDetails-name::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: #09609f;
+  width: 200px;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.sellingPriceValue{
+  font-weight: 600;
+  font-size: 22px;
+  font-family: muli;
+}
+
+.infoCardImage{
+  border-radius: 10px;
+}
+
+.infoCardHeadline--info-card-featured, .infoCardSubhead--info-card-featured , .infoCardCallActionContainer--info-card-featured{
+  font-family: muli;
+}
+
+.infoCardContainer--info-card-featured{
+  margin: 10px 20px;
+  padding: 20px;
+}
+
+.buyButtonText--btn-productDetail{
+  font-size: 18px;
+  font-family: muli;
+  padding: 10px;
+}
+
+.infoCardImage--info-card-featured{
+  border-radius: 10px;
+}
+
+.searchBarContainer{
+  padding: 10px;
+}
+
+.infoCardHeadline--info-card-featured{
+  font-weight: 600;
+}
+
+.infoCardCallActionContainer--info-card-featured :global(.vtex-button){
+  font-family: muli;
+  font-weight: 600;
+  text-transform: none
+}
+
+.infoCardCallActionContainer--info-card-featured{
+  padding: 0 1em;
+}
+
+.specificationsTabsContainer :global(.vtex-tabs__nav){
+  overflow-x: scroll;
+  height: 65px;
+}
+
+.carouselGaleryCursor {
+  padding: 0px;
+}
+
+.infoCardContainer--info-card-featured{
+  border-bottom: 2px solid #D1D1D1;
+  border-radius: 0px;
+}
+
+.specificationsTabsContainer{
+  max-width: 1200px;
+  margin: 10px 20px;
+  padding-top: 10px;
+}
+
+.imageElement--brandsSlider{
+  max-width: 150px;
+  max-height: 105px !important;
+}
+
+.infoCardImage--info-card-featured{
+  height: 90%;
+  max-height: 190px;
+}
+
+.productImagesGallerySlide{
+  padding: 0px 35px;
+}
+
+.swiperCaret .caretIcon{
+  padding: 4px 0px 4px 4px;
+  color: #0060a3;
+  border-radius: 3px;
+}
+
+.swiperCaretPrev .caretIcon{
+  padding: 4px 3px 4px 1px
+}
+
+.productImagesThumbCaret{
+  padding: 0px;
+  border-radius: 3px;
+}
+
+.productImagesThumbCaret{
+  color: #0060a3;
+}
+
+.carouselGaleryThumbs{
+  padding: 0px 10px;
+}
+
+.gradientBaseBottom{
+  box-shadow: 0px -3px 8px 9px #fff;
+  background: #fff;
+}
+
+.gradientBaseTop{
+  box-shadow: 0px 3px 8px 9px #fff;
+  background: #fff;
+}
+
+.productImagesThumb{
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 40em){
+  .resultsList{
+    z-index: 99999999;
+    position: fixed;
+    margin-top: 90px;
+    max-height: 300px;
+  }
+
+  .label--content-newsletter{
+    font-size: 1.75em;
+    font-style: normal;
+  }
+
+  
+  .specificationsTabsContainer{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 10px;
+  }
+
+  .price_installmentContainer--productDetails-price{
+    text-transform: lowercase;
+    font-family: muli;
+
+  }
+
+  .specificationsTabsContainer :global(.vtex-tabs__nav){
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .infoCardSubhead--info-card-featured{max-width:35em;}
+  .infoCardContainer--info-card-featured{
+    padding: none;
+    border-bottom: none;
+  }
+  .specificationsTabsContainer :global(.vtex-tabs)::before{
+    display: none;
+  }
+
+  .infoCardContainer--info-card-featured{
+    padding: 0px 100px 20px;
+  }
+
+  .infoCardImage--info-card-featured{
+    height: 530px;
+    max-height: inherit;
+  }
+}

@@ -1,0 +1,116 @@
+.container{justify-content: left;}
+
+.itemContainer:first-child{border-left:0;}
+/* .itemContainer a{font-weight:bold;font-size:.9em;color:#000;padding:1.8em 0;margin: 0 .5em} */
+.firstLevelLink{font-weight: normal;font-size: .9em;color:#fff;word-wrap: none;white-space: normal;}
+.secondLevelLink{word-wrap: none;white-space: normal;}
+.itemContainer .link{color:#fff}
+
+.container {
+  background-color: #fff;
+  box-shadow: none;
+  border-top: none;
+}
+
+.itemContainer--department{
+  max-height: 40px;
+}
+
+.itemContainer--department:last-child{
+  border: 0px;
+}
+
+.itemContainer--department:hover{
+  background: #f4f4f4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.container{
+  max-width: 1150px;
+}
+
+.departmentLink{
+  font-size: 15px;
+}
+
+.itemContainer--department:first-child .departmentLink{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.itemContainer {
+  color: #ffffff;
+}
+
+.secondLevelLink{
+  max-width: 190px;
+}
+
+.firstLevelLink{
+  color: #0060a3;
+  font-weight: 600;
+  font-family: muli;
+}
+
+.itemContainer--category {
+  max-height: fit-content;
+  padding: 20px;
+}
+
+.firstLevelList{
+  padding-top: 20px;
+}
+
+.submenuList{
+  display: flex;
+  justify-content: left;
+}
+
+.secondLevelLink{
+  color: #0060a3;
+  padding: 5px .75rem;
+  font-size: 13px;
+  font-family: muli;
+}
+.submenuItem{
+  width: 25%;
+}
+
+.section--category{
+  display: flex;
+  flex-direction: column;
+  max-width: 1055px;
+}
+
+.departmentLink{
+  font-family: muli;
+  color: #0060a3;
+}
+
+.departmentLink:hover{
+  text-decoration: underline;
+}
+
+.departmentList{
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 40em){
+    /* Hover */
+    .itemContainer .itemContainer{
+      z-index: 9;
+      background: #f5f5f5;
+      border: 0px;
+      height:auto;
+      padding:.5em 0;
+    }
+    .itemContainer:first-child .itemContainer{
+      min-height: 500px;
+    }
+}
+@media only screen and (min-width: 80em){
+      .container{padding-left: 1em;}
+}
+    

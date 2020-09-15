@@ -1,0 +1,50 @@
+.container{
+    background: #09609f;
+    margin-bottom: 20px;
+}
+
+.container :global(.vtex-button){
+    background: #09609f;
+}
+
+.profileIcon--login-desktop{
+    color: #fff;
+}
+.container :global(.vtex-button__label){
+    padding: 0px 8px 0px 20px !important;
+}
+.label{
+    color: #fff;
+    font-size: 15px;
+    display: block;
+}
+
+
+@media only screen and (min-width: 1000px){
+    /*
+    .label:after{
+        content:"▾";
+        display:inline-block;
+        padding: 0 .5rem;
+        width:20px;
+        height:10px;
+        color: #ff6600;
+    }
+    */
+    .label{
+        color: #fff;
+        font-size: 0px;
+        display: none;
+    }
+    .container{
+        background: #10588d00;
+        margin-bottom: 0px;
+        padding: 5px 0px;
+    }
+    .label{
+        display: none;
+    }
+    .buttonLink :global(.vtex-button){
+        max-width: 30px;
+    }
+}
