@@ -47,7 +47,9 @@
     "children":[
       "logo#desktop",
       "header-spacer",
-      "search-bar",
+      "vtex.menu@2.x:menu#main-menu",
+      "header-spacer",
+      //"search-bar",
       "login",
       "minicart"
     ],
@@ -100,7 +102,6 @@
   },    
   "header-row#3-desktop":{
     "children":[
-      "vtex.menu@2.x:menu#main-menu"
     ],
     "props" :{
       "sticky": true,

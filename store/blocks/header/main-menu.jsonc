@@ -1,7 +1,7 @@
 {
     "vtex.menu@2.x:menu#main-menu":{
         "children":[
-          "menu-item#brands",
+          //"menu-item#brands",
           "menu-item#ar-condicionado",
           "menu-item#ar-fujitsu",
           "menu-item#ar-daikin",
@@ -36,6 +36,7 @@
             "vtex.menu@2.x:submenu#brands"
           ],
           "props":{
+            "blockClass": ["air-conditioner"],
             "id": "menu-item-category-ar",
             "type": "custom",
             "iconId": null,
