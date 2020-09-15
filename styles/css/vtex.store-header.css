@@ -40,13 +40,10 @@
 
 .headerRowContainer--category-menu-background{
     position: relative;
-}
-
-.headerRowContainer--category-menu-background{
-    position: relative;
-    flex-direction: row-reverse;
+    flex-direction: row;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #2d2b8d;
 }
 

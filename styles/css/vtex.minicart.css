@@ -2,9 +2,9 @@
 
 .container :global(.vtex-button){
     font-size: 0px;
-    background: #f7eb14;
+    background: #01ade5;
     margin: 0px 25px;
-    color: #58595b;
+    color: #ffffff;
 }
 
 .itemContainer :global(.vtex-product-summary-2-x-imageNormal){

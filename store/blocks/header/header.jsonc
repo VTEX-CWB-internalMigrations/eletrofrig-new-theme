@@ -100,8 +100,7 @@
   },    
   "header-row#3-desktop":{
     "children":[
-      "category-menu",
-      "vtex.menu@2.x:menu#brands-menu"
+      "vtex.menu@2.x:menu#main-menu"
     ],
     "props" :{
       "sticky": true,

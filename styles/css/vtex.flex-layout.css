@@ -19,7 +19,7 @@
 .flexColChild--content-footer{height:auto !important;}
 .flexRow--productDetail-description{background:#fff;padding:1em 0;}
 .flexRow--content-bannerSpecial{display:none;}
-.flexRow--deals{background:#f7eb14;padding:.5em 0;}
+.flexRow--deals{background: #01ade5;;padding:.5em 0;}
 .flexRow--content-bannersSegmented{margin:2em 0 0;}
 .flexRow--content-bannersSegmented{display:none;}
 
@@ -50,7 +50,7 @@
 }
 
 .flexRow--footer-first-row{
-    background: #09609f;
+    background: #2d2b8d;
 }
 
 .flexRow--shelfBlock{
@@ -135,7 +135,7 @@
 }
 
 .flexRow--last-footer-row{
-    background: #f7eb14;
+    background: #01ade5;
 }
 .flexRow--breadcrumb-box{
     background: rgb(246, 246, 246);

@@ -1,0 +1,106 @@
+{
+    "vtex.menu@2.x:menu#main-menu":{
+        "children":[
+          "menu-item#brands",
+          "menu-item#ar-condicionado",
+          "menu-item#ar-fujitsu",
+          "menu-item#ar-daikin",
+          "menu-item#ar-springer"
+        ],
+        "props":{
+          "orientation": "horizontal",
+          "blockClass": "brand-class"
+        }
+      },
+
+      "menu-item#brands":{
+        "blocks":[
+            "vtex.menu@2.x:submenu#brands"
+          ],
+          "props":{
+            "id": "menu-item-category-brands",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Marcas",
+              "text": "Marcas"
+            }
+          }
+      },
+      "menu-item#ar-condicionado":{
+        "blocks":[
+            "vtex.menu@2.x:submenu#brands"
+          ],
+          "props":{
+            "id": "menu-item-category-ar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Ar Condicionado",
+              "text": "Ar Condicionado"
+            }
+          }
+      },
+      "menu-item#ar-fujitsu":{
+        "blocks":[
+            "vtex.menu@2.x:submenu#brands"
+          ],
+          "props":{
+            "id": "menu-item-category-fujitsu",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Fujitsu",
+              "text": "Fujitsu"
+            }
+          }
+      },
+      "menu-item#ar-daikin":{
+        "blocks":[
+            "vtex.menu@2.x:submenu#brands"
+          ],
+          "props":{
+            "id": "menu-item-category-daikin",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Daikin",
+              "text": "Daikin"
+            }
+          }
+      },
+      "menu-item#ar-springer":{
+        "blocks":[
+            "vtex.menu@2.x:submenu#brands"
+          ],
+          "props":{
+            "id": "menu-item-category-springer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "",
+              "noFollow": true,
+              "tagTitle": "Springer",
+              "text": "Springer"
+            }
+          }
+      }
+}
