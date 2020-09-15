@@ -17,7 +17,6 @@
 }
 
 .price_installmentContainer{
-    font-family: muli;
     font-weight: 300;
     font-size: 16px;
 }
@@ -39,7 +38,6 @@
 .buyButton :global(.vtex-button){
     border-radius: 10px;
     border: none;
-    font-family: muli;
     display: none;
 }
 
@@ -50,7 +48,6 @@
 .productBrand--shelf-nameProduct-featured{
     font-size: 16px;
     font-weight: 100;
-    font-family: muli;
     text-align: left;
 }
 

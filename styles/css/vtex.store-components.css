@@ -236,7 +236,6 @@
 .productBrand--productDetails-name{
   font-size: 25px;
   color: #595959;
-  font-family: muli;
 }
 
 .productBrand--productDetails-name::after{
@@ -252,7 +251,6 @@
 .sellingPriceValue{
   font-weight: 600;
   font-size: 22px;
-  font-family: muli;
 }
 
 .infoCardImage{
@@ -260,7 +258,6 @@
 }
 
 .infoCardHeadline--info-card-featured, .infoCardSubhead--info-card-featured , .infoCardCallActionContainer--info-card-featured{
-  font-family: muli;
 }
 
 .infoCardContainer--info-card-featured{
@@ -270,7 +267,6 @@
 
 .buyButtonText--btn-productDetail{
   font-size: 18px;
-  font-family: muli;
   padding: 10px;
 }
 
@@ -287,7 +283,6 @@
 }
 
 .infoCardCallActionContainer--info-card-featured :global(.vtex-button){
-  font-family: muli;
   font-weight: 600;
   text-transform: none
 }
@@ -389,7 +384,6 @@
 
   .price_installmentContainer--productDetails-price{
     text-transform: lowercase;
-    font-family: muli;
 
   }
 
