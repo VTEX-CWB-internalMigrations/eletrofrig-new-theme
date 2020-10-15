@@ -362,6 +362,10 @@
   overflow: hidden;
 }
 
+.imageContainer{
+  height: 275px;
+}
+
 @media only screen and (min-width: 40em){
   .resultsList{
     z-index: 99999999;

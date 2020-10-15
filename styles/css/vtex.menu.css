@@ -55,17 +55,20 @@
 }
 
 .menuContainer--brand-class .menuItem .styledLinkContainer{
-    margin: 0px auto;
     display: inline-flex;
-    width: 100%;
     text-align: center;
     justify-content: center;
-    padding: 40px 10px 10px;
-    border-right: 2px solid #343291;
     margin: 10px 0px;
-    width: 135px;
+    width: 130px;
     align-items: flex-end;
-    height: 80px;
+}
+
+.menuContainer--brand-class .menuItem{
+    border-right: 2px solid #343291;
+}
+
+.menuContainer--brand-class .menuItem:last-child{
+    border-right: 0px solid #343291;
 }
 
 .menuContainer--brand-class .styledLink{
@@ -123,15 +126,4 @@
 .menuContainer--brand-class{
     display: flex;
     align-items: center;
-}
-
-.styledLinkContainer--air-conditioner::before{
-    display: block;
-    content: "";
-    background: url(https://eletrofrig.vteximg.com.br/arquivos/air-new-icon.png);
-    width: 70px;
-    height: 70px;
-    background-size: 68px;
-    position: absolute;
-    top: -5px;
 }
