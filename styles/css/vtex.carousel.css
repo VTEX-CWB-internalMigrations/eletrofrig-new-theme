@@ -21,10 +21,6 @@
 }
 */
 
-.sliderRoot--desktopCarousel{
-  display: none;
-}
-
 .arrowsContainerWrapper--desktopCarousel{
   display: none;
 }
@@ -46,23 +42,5 @@
 
   .imgRegular{
     max-height: initial !important;
-  }
-}
-
-@media only screen and (min-width: 630px){
-  .sliderRoot--desktopCarousel{
-    display: block;
-  }
-  
-  .sliderRoot--mobileCarousel{
-    display: none;
-  }
-
-  .arrowsContainerWrapper--mobileCarousel{
-    display: none;
-  }
-
-  .arrowsContainerWrapper--desktopCarousel{
-    display: block;
   }
 }
