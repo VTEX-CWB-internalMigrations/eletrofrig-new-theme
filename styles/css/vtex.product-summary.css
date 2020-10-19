@@ -58,9 +58,8 @@
     overflow: hidden;
 }
 
-.imageNormal{
-    height: 215px;
-    width: 215px;
+.imageContainer{
+    height: 265px;
 }
 
 @media only screen and (min-width: 40em){
