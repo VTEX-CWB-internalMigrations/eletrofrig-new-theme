@@ -21,7 +21,20 @@
   box-shadow: 0px 7px 15px #000;
 }
 
+.socialNetworksContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 40em){
+
+  .socialNetworksContainer{
+    display: flex;
+    align-items: left !important;
+    justify-content: left !important;
+  }
+
   .acceptedPaymentMethodContainer{
     justify-content: left !important;
   }
