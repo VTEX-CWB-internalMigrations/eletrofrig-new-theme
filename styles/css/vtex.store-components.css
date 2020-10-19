@@ -54,11 +54,6 @@
   padding:1em;
 }
 
-.productBrand--productDetails-name{
-  font-size:1.2em;
-  font-weight: bold;
-}
-
 .price_sellingPriceContainer--productDetails-price{
   margin: 1em 0 0;
 }
@@ -178,7 +173,7 @@
 }
 
 .specificationsTabsContainer :global(.vtex-tab__button--active){
-  border-bottom: 2px solid #f7eb14;
+  border-bottom: 2px solid #09609f;
 }
 
 .specificationsTitle{
@@ -201,7 +196,7 @@
   color: #606060;
 }
 
-.specificationsTabsContainer :global(.vtex-tabs)::before{
+/*.specificationsTabsContainer :global(.vtex-tabs)::before{
   content: "";
   background-image: url(https://girotondo.vteximg.com.br/arquivos/scrollHere2.png);
   height: 15px;
@@ -214,7 +209,7 @@
   align-items: center;
   background-color: #ececec;
   padding: 10px;
-}
+}*/
 
 .container{
   padding: 0px;
@@ -371,7 +366,18 @@
   width: 40px;
 }
 
+.productBrand--productDetails-name{
+  font-size:17px;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 40em){
+
+  .productBrand--productDetails-name{
+    font-size:1.2em;
+    font-weight: bold;
+  }
+
   .resultsList{
     z-index: 99999999;
     position: fixed;
