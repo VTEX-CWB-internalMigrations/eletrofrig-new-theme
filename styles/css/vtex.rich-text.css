@@ -64,7 +64,7 @@
 
 .container--footer-title{font-weight: bold;}
 .container--footer-title .paragraph{margin:0 0 .5em;color: #58595b;}
-.container--footer-textDefault .paragraph{font-size: 1em;font-weight: bold;margin:0 0 .5em;}
+.container--footer-textDefault .paragraph{font-size: 14px;font-weight: bold;margin:0 0 .5em;}
 .container--text-copyright{margin: 1em 0;}
 .container--text-copyright .paragraph{text-align:center;font-size:.8em;}
 .container--alert-product{
@@ -408,6 +408,10 @@
 .paragraph--text-copyright{
   color: #fff;
   padding: 0px;
+}
+
+.image--whatsapp-function{
+  max-width: 60px;
 }
 
 @media only screen and (min-width: 40em){

@@ -10,12 +10,16 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "rich-text#shelfTitle",
       "flex-layout.row#shelf",
+      "image#diferentialImage2",
       "rich-text#shelfTitle2",
       "flex-layout.row#shelf2",
+      "image#diferentialImage3",
       "rich-text#shelfTitle3",
       "flex-layout.row#shelf3",
+      "image#diferentialImage4",
       "rich-text#shelfTitle4",
-      "flex-layout.row#shelf4"
+      "flex-layout.row#shelf4",
+      "image#diferentialImage5"
       // "flex-layout.row#banners-segmented",      
       // "flex-layout.row#shelf-special",
       // "flex-layout.row#bannerMiddle-row",
@@ -30,6 +34,31 @@
   },
 
   "image#diferentialImage":{
+    "props":{
+      "blockClass": "diferential-image"
+    }
+  },
+  "image#diferentialImage1":{
+    "props":{
+      "blockClass": "diferential-image"
+    }
+  },
+  "image#diferentialImage2":{
+    "props":{
+      "blockClass": "diferential-image"
+    }
+  },
+  "image#diferentialImage3":{
+    "props":{
+      "blockClass": "diferential-image"
+    }
+  },
+  "image#diferentialImage4":{
+    "props":{
+      "blockClass": "diferential-image"
+    }
+  },
+  "image#diferentialImage5":{
     "props":{
       "blockClass": "diferential-image"
     }
