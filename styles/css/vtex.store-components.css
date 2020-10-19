@@ -366,6 +366,11 @@
   height: 275px;
 }
 
+.imageElement--iconSearch{
+  height: 40px;
+  width: 40px;
+}
+
 @media only screen and (min-width: 40em){
   .resultsList{
     z-index: 99999999;

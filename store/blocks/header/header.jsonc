@@ -51,12 +51,63 @@
       "header-spacer",
       //"search-bar",
       "login",
+      "vtex.menu@2.x:menu#searchBar",
       "minicart"
     ],
     "props":{
       "sticky": true
     }  
   },
+
+  "vtex.menu@2.x:menu#searchBar": {
+    "children": [
+      "menu-item#searchIcon",
+      "image#searchIcon"
+    ],
+    "props": {
+      "blockClass": "iconSearchMaster"
+    }
+  },
+
+  "image#searchIcon": {
+    "props": {
+      "src": " https://thulestore.vteximg.com.br/arquivos/iconSearch.png",
+      "blockClass": "iconSearch"
+    }
+  },
+
+  "menu-item#searchIcon": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#searchBar"
+    ],
+    "props": {
+      "id": "menu-item-searchIcon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "searchIcon",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+
+  "vtex.menu@2.x:submenu#searchBar": {
+    "children": [
+      "flex-layout.row#searchBar"
+    ]
+  },
+  
+  "flex-layout.row#searchBar": {
+    "children": [
+      "search-bar"
+    ]
+  },
+
   "logo#desktop": {
     "props": {
       "title": "Logo",

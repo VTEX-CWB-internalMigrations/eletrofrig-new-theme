@@ -127,3 +127,41 @@
     display: flex;
     align-items: center;
 }
+
+.menuContainer--iconSearchMaster{
+    width: 30px;
+}
+
+.menuContainer--iconSearchMaster{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.menuItem--searchIcon{
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 640px) {
+    .menuContainerNav--iconSearchMaster{
+        position: relative;
+        margin: 0px 10px;
+    }
+    .menuItem--searchIcon , .menuItem--faqItem{
+        position: absolute
+    }
+    .menuItem--searchIcon .submenuContainer{
+        min-width: 300px;
+        left: -150px;
+    }
+    .menuItem--searchIcon .submenuWrapper, .menuItem--faqItem .submenuWrapper{
+        padding: 15px;
+        border-radius: 5px;
+        left: -90px;
+    }
+}

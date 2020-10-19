@@ -3,7 +3,7 @@
 .container :global(.vtex-button){
     font-size: 0px;
     background: #01ade5;
-    margin: 0px 25px;
+    margin: 0px 25px 0px 0px;
     color: #ffffff;
 }
 
