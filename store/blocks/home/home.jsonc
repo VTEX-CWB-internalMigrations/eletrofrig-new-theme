@@ -2,7 +2,6 @@
   "store.home": {
     "blocks": [
       "carousel#default",
-      "carousel#mobile",
       "image#diferentialImage",
       //"list-context.image-list#brands",
       // "flex-layout.row#banner-featured",
