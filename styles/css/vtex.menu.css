@@ -3,7 +3,7 @@
 }
 
 .styledLinkContainer{
-    padding: 1em 0;
+    padding: 7px 0;
 }
 
 .styledLink{
@@ -31,10 +31,9 @@
 }
 
 .menuItem--mobile-menu{
-    background: #f7eb14;
+    background: #025792;
     color: #fff;
-    border-radius: 5px;
-    margin: 2px 0px;
+    margin: 2px 0;
 }
 
 .menuContainer--mobile-menu{
@@ -42,7 +41,7 @@
 }
 
 .styledLink--mobile-menu{
-    color: #58595b;
+    color: #fff;
 }
 
 
