@@ -63,8 +63,8 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchtitle",
-      "flex-layout.row#testImage",
       "flex-layout.row#searchbread",
+      "flex-layout.row#deptImage",
       "flex-layout.row#result"
     ],
     "props": {
@@ -76,11 +76,50 @@
       }
     }
   },
-  "flex-layout.row#testImage":{
+  "flex-layout.row#deptImage":{
     "children":[
-      "image#departmentImages"
+      "flex-layout.col#testImage"
     ]
   },
+
+  "flex-layout.col#testImage":{
+    "children":[
+      "carousel#category",
+      "rich-text#category-text"
+    ]
+  },
+
+  "flex-layout.col#side":{
+    "props":{
+      "width": "5%"
+    }
+  },
+
+  "carousel#category": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "assets/test-category.png"
+        },
+        {
+          "image": "assets/test-category.png"
+        }
+      ],
+      "height": 455,
+      "showArrows": true,
+      "showDots": true,
+      "blockClass": "carousel-desktop"
+    }
+  },
+
+  "rich-text#category-text":{
+    "props":{
+      "blockClass": "category-text",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+
   "image#departmentImages":{
     "props":{
       "src": "/.",
@@ -100,7 +139,7 @@
     "children": ["search-title.v2"]
   },
   "flex-layout.row#result": {
-    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+    "children": ["flex-layout.col#side", "flex-layout.col#filter", "flex-layout.col#content", "flex-layout.col#side"],
     "props": {
       "preventHorizontalStretch": true,
       "fullWidth": true

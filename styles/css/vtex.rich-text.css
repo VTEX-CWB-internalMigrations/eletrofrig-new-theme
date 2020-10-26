@@ -418,6 +418,10 @@
   max-width: 60px;
 }
 
+.paragraph--category-text{
+  margin: 30px 5%;
+}
+
 @media only screen and (min-width: 40em){
   .container--link-regulation{
     text-align: center;
@@ -481,6 +485,7 @@
 }
 .link--footer-textDefault{
   color: #8d8d8d;
+  font-size: 13px;
 }
 
 @media only screen and (min-width: 80em){

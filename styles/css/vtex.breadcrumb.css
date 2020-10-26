@@ -2,7 +2,6 @@
 .homeLink .homeIcon {height:20px;vertical-align: middle;}
 .container{
     background: #F6f6f6;
-    margin-bottom: 15px;
     padding: 7px 10px;
 }
 @media only screen and (max-width: 40em){
