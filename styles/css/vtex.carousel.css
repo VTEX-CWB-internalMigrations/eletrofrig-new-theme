@@ -21,10 +21,6 @@
 }
 */
 
-.arrowsContainerWrapper--desktopCarousel{
-  display: none;
-}
-
 .sliderRoot--mobileCarousel{
   display: block;
 }
@@ -34,7 +30,6 @@
 }
 
 @media only screen and (min-width: 80em){
-  .containerDots{margin-bottom: 70px;}
 
   .slide{
     max-height: initial !important;
